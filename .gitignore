@@ -1,0 +1,29 @@
+# Environment variables (API keys)
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# FAISS index saved with vectorstore.save_local()
+faiss_index/
+*.faiss
+*.pkl
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
